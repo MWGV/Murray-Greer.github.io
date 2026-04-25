@@ -180,10 +180,10 @@ article p {
 /* ********** Custom Properties ********** */
 :root {
   --first-color: rgba(31, 66, 204, 0.75);
-  --first-alpha-color: rgba(50, 8, 149, 0.75);
-  --second-color: #31d1dc;
-  --second-alpha-color: rgba(31, 66, 204, 0.75);
-  --third-color: rgba(50, 8, 149, 0.75);
+  --first-alpha-color: rgba(158, 120, 248, 0.75;
+  --second-color: #67dfe7;
+  --second-alpha-color: rgba(94, 122, 236, 0.75);
+  --third-color: rgba(138, 93, 243, 0.75);
   --third-alpha-color: rgba(50, 8, 149, 0.75);
   --white-color: #fff;
   --gray-light-color: #f3f3f3;
