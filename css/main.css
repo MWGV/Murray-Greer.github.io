@@ -268,22 +268,7 @@ p {
   line-height: 1.6;
 }
 
-//* En la sección .carousel y elementos relacionados */
-.carousel .slide {
-  color: black;  /* Cambiar de white a black */
-}
-
-.carousel blockquote {
-  color: black;  /* Cambiar de white a black */
-}
-
-.carousel h3 {
-  color: black;  /* Si está en blanco, cambiar a black */
-}
-
-.carousel h6 {
-  color: black;  /* Si está en blanco, cambiar a black */
-}* ********** Components ********** */
+/* ********** Components ********** */
 
 /* ********** Carousel ********** */
 @keyframes carousel-slide {
@@ -361,7 +346,6 @@ p {
 }
 
 /* ********** Contact Form ********** */
-
 .contact-cards {
   display: flex;
   justify-content: center;
@@ -376,15 +360,7 @@ p {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  .contact-cards {
-  max-width: fit-content;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 20px;
-  place-items: center;
 }
-
 .contact-form {
   margin: 2rem auto;
   padding: 1rem;
