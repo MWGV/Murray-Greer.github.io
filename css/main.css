@@ -268,7 +268,22 @@ p {
   line-height: 1.6;
 }
 
-/* ********** Components ********** */
+//* En la sección .carousel y elementos relacionados */
+.carousel .slide {
+  color: black;  /* Cambiar de white a black */
+}
+
+.carousel blockquote {
+  color: black;  /* Cambiar de white a black */
+}
+
+.carousel h3 {
+  color: black;  /* Si está en blanco, cambiar a black */
+}
+
+.carousel h6 {
+  color: black;  /* Si está en blanco, cambiar a black */
+}* ********** Components ********** */
 
 /* ********** Carousel ********** */
 @keyframes carousel-slide {
