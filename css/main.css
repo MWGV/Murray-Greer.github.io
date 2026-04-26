@@ -361,6 +361,7 @@ p {
 }
 
 /* ********** Contact Form ********** */
+
 .contact-cards {
   display: flex;
   justify-content: center;
@@ -375,7 +376,15 @@ p {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  .contact-cards {
+  max-width: fit-content;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  place-items: center;
 }
+
 .contact-form {
   margin: 2rem auto;
   padding: 1rem;
