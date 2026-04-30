@@ -179,26 +179,27 @@ article p {
 
 /* ********** Custom Properties ********** */
 :root {
---first-color: rgba(31, 66, 204, 0.75);
---first-alpha-color: rgba(50, 8, 149, 0.75);
---second-color: #31d1dc;
---second-alpha-color: rgba(31, 66, 204, 0.75);
---third-color: rgba(50, 8, 149, 0.75);
---third-alpha-color: rgba(50, 8, 149, 0.75);
---white-color: #fff;
---gray-light-color: #f3f3f3;
---gray-color: #ccc;
---gray-dark-color: #666;
---black-color: #000;
---link-color: #509ee3;
---title-color: rgb(13, 13, 96);
---text-color: rgb(13, 13, 96);
---white-alpha-color: rgba(255, 255, 255, 0.5);
---black-alpha-color: rgba(0, 0, 0, 0.5);
---font: "Raleway", sans-serif;
---max-width: 1200px;
---header-height: 4rem;
+  --first-color: rgba(31, 66, 204, 0.75);
+  --first-alpha-color: rgba(50, 8, 149, 0.75);
+  --second-color: #31d1dc;
+  --second-alpha-color: rgba(31, 66, 204, 0.75);
+  --third-color: rgba(50, 8, 149, 0.75);
+  --third-alpha-color: rgba(50, 8, 149, 0.75);
+  --white-color: #fff;
+  --gray-light-color: #f3f3f3;
+  --gray-color: #ccc;
+  --gray-dark-color: #666;
+  --black-color: #000;
+  --link-color: #509ee3;
+  --title-color: rgb(13, 13, 96);
+  --text-color: rgb(13, 13, 96);
+  --white-alpha-color: rgba(255, 255, 255, 0.5);
+  --black-alpha-color: rgba(0, 0, 0, 0.5);
+  --font: "Raleway", sans-serif;
+  --max-width: 1200px;
+  --header-height: 4rem;
 }
+
 
 /* ********** Reset ********** */
 html {
@@ -346,21 +347,7 @@ p {
 }
 
 /* ********** Contact Form ********** */
-.contact-cards {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 20px;
-  margin: 0 auto;
-}
 
-.contact-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
 .contact-form {
   margin: 2rem auto;
   padding: 1rem;
@@ -587,7 +574,7 @@ progress {
 }
 
 progress::-webkit-progress-bar {
-  background-color:  rgba(31, 66, 204, 0.75);
+  background-color: var(--gray-color);
 }
 
 progress::-webkit-progress-value {
